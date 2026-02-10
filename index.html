@@ -3,33 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Product card</title> 
 </head>
-<body style="font-family: Montserrat;">
-  <h1>Выбери свой продукт</h1>
-  <div>
-    <img src=".\image\moisturizing-mousse.png" width="290px" height="245px" alt="Картинка: moisturizing-mousse">
-    <div>
-      <span>для нормальной кожи</span>
-    </div>
-    <h3>Увлажняющий мусс</h3>
-    <div>
-      <p>Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</p>
-    </div>
-    <div>
-      <span>Состав: </span>
-      <ul>
-        <li type="circle">активные натуральные комплексы</li>
-        <li type="circle">витамины С, А, РР, В И Е</li>
-        <li type="circle">солнцезащитные компоненты</li>
-      </ul>
-    </div>
-    <div>
-      <span>Цена</span>
-      <span>2 750 &#x20BD</span>
+<body>
+  <div class="damdelions-bg">
+    <img src="./images/dandelions-bg.png" alt="Картинка: dandelions background">
+  </div>
+  <div class="chose-ur-product">
+    <h1>Выбери свой продукт</h1>
+  </div>
+  <div class="product-cards-container">
+    <div class="product-card">
+      <div class="product-card__image">
+        <img src="./images/moisturizing-mousse.png" width="290px" height="245px" alt="Картинка: moisturizing-mousse">
+      </div>
+      <div class="product-card__tag">
+        <span>для нормальной кожи</span>
+      </div>
+      <div class="product-card__name">
+        <h3>Увлажняющий мусс</h3>
+      </div>
+      <div class="product-card__description">
+        <p>Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</p>
+      </div>
+      <div class="product-card__formula-container">
+        <span>Состав: </span>
+        <ul class="product-card__formula">
+          <li type="circle">активные натуральные комплексы</li>
+          <li type="circle">витамины С, А, РР, В И Е</li>
+          <li type="circle">солнцезащитные компоненты</li>
+        </ul>
+      </div>
+      <div class="product-card__price-container">
+        <span class="product-card__price">Цена</span>
+        <span class="product-card__cost">2 750 &#x20BD</span>
+      </div>
     </div>
   </div>
 </body>

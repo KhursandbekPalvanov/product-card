@@ -1,0 +1,14 @@
+:root {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.damdelions-bg {
+  width: 790px;
+  min-height: 697px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
